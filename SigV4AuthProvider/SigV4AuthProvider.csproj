@@ -4,6 +4,14 @@
         <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>disable</Nullable>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>AWS SigV4 Keyspaces Authenticator Provider</Title>
+        <Authors>Igor Orlenko</Authors>
+        <Description>A SigV4 authentication client side plugin for the open-source DataStax Dot Net Driver for Apache Cassandra. Allows use of IAM users and roles.</Description>
+        <PackageProjectUrl>https://github.com/iorlenko/aws-sigv4-auth-cassandra-dotnet-driver-plugin</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/iorlenko/aws-sigv4-auth-cassandra-dotnet-driver-plugin</RepositoryUrl>
+        <PackageTags>AWS Cassandra Keyspaces Authentication</PackageTags>
+        <PackageLicenseUrl>https://github.com/iorlenko/aws-sigv4-auth-cassandra-dotnet-driver-plugin/blob/main/LICENSE</PackageLicenseUrl>
     </PropertyGroup>
 
     <ItemGroup>
